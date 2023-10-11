@@ -28,7 +28,6 @@ export type VideoSize = 1 | 0;
 
 export interface Preferences {
   isExtensionEnabled: boolean;
-  isHideDonationSection: boolean;
   qualities: QualityFpsPreferences;
   isEnhancedBitrates: EnhancedBitratePreferences;
   isResizeVideo: VideoAutoResize;
